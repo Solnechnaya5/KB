@@ -1694,19 +1694,15 @@ margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 40px;
 }
 
-.massmedia-video {
-    /* Style for "Layer 640" */
+.massmedia-video iframe{
 width: 416px;
 height: 234px;
-background-color: #000000;
 }
 .massmedia-video:first-child{
     margin-bottom: 24px;
-}
-.massmedia-video{
-    margin-bottom: 40px;
 }
 .massmedia-videos_link {
 color: #1c67c4;
