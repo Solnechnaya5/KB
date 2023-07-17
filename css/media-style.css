@@ -257,17 +257,12 @@ font-size: calc(24px + (32 - 24)*((100vw - 320px) / (1920 - 320)));
 padding-top: calc(40px + (80 - 40)*((100vw - 320px) / (1920 - 320)));
 margin-bottom: calc(32px + (40 - 32)*((100vw - 320px) / (1920 - 320)));
 margin-left: calc(21px + (312 - 21)*((100vw - 320px) / (1920 - 320)));}
-.team-members {
-width: calc(160px + (1296 - 160)*((100vw - 320px) / (1920 - 320)));}
-
 .google-address {
 width: calc(320px + (1920 - 320)*((100vw - 320px) / (1920 - 320)));}
-
 .google-address iframe {
 width: calc(320px + (1920 - 320)*((100vw - 320px) / (1920 - 320)));}
 .footer{
-height: auto;
-}
+height: auto;}
 .footer-top {
 margin-bottom: calc(40px + (52 - 40)*((100vw - 320px) / (1920 - 320)));}
 .footer-top_left{
@@ -413,7 +408,6 @@ margin-bottom: 32px;
 margin-right: 0;
 text-align: center;
 }
-
 .scheme-right {
 flex-direction: column;
 align-items: center;
@@ -435,6 +429,8 @@ margin-top: 60px;
 .round-elem2{
 left: 0;
 }
+.team-members {
+  width: calc(160px + (1296 - 160)*((100vw - 320px) / (1320 - 320)));}
 }
 @media only screen and (max-width: 1152px) {
 .opportunities{
