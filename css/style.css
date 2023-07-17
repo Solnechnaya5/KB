@@ -3,7 +3,9 @@
     overflow: hidden;
     background-color: #f4f6f8;
 }
-
+a:hover{
+    cursor: pointer;
+}
 .top-screen {
     width: 1857px;
     height: 1000px;
@@ -69,26 +71,40 @@ background-image: linear-gradient(to top, #000000 0%, rgba(0, 0, 0, 0) 100%);
     align-items: center;
 }
 
-.header-lang_list li {
+.lang-hidden {
     display: none;
-    justify-content: center;
-    align-items: center;
 }
+.lang-active{
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+    .header-lang a{
 
-.header-lang_list li img {
+color: #ffffff;
+font-family: 'Roboto';
+font-size: 11px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: center;
+text-transform: uppercase;
+}
+.header-lang_list  img {
     width: 10px;
     height: 6px;
+    margin-left: 17px;
 }
 
-.lang-active {
+.header-lang:hover .lang-hidden  {
     display: flex;
+    margin-top: 5px;
 }
-
-.lang-active:hover .header-lang_list li {
-    display: flex;
+.header-lang:hover{
+    height: 55px;
+    cursor: pointer;
 }
-
-.lang-active:hover img {
+.header-lang:hover  img {
     transform: rotate(180deg);
 }
 
@@ -415,10 +431,12 @@ background-color: #f5ca00;
     letter-spacing: normal;
     line-height: 41px;
     text-align: left;
+    cursor: pointer;
 }
 .change-btn.active{
     color: #1d53bb;
     text-decoration: underline;
+    
 }
 
 .example-toggle p:first-child {
@@ -663,7 +681,9 @@ background-color: #f5ca00;
     text-transform: uppercase;
     margin-right: 5px;
 }
-
+.ces-content_toggle-btn:hover{
+    cursor: pointer;
+}
 .ces-content_toggle-btn:last-child {
     margin-right: 0;
 }
@@ -943,13 +963,14 @@ height: 33px; */
     display: flex;
     flex-direction: column;
     height: 800px;
+    margin-left: 25px;
 }
 
 .building {
     width: 616px;
     height: 430px;
     position: relative;
-    right: 50px;
+    right: 40px;
     top: 20px;
 }
 
@@ -966,7 +987,7 @@ height: 33px; */
     width: 36px;
     height: 24px;
     position: relative;
-    top: 100px;
+    top: 70px;
     left: 22px;
 }
 
@@ -977,7 +998,7 @@ height: 33px; */
     align-items: center;
     position: relative;
     position: relative;
-    bottom: 165px;
+    bottom: 125px;
     right: 20px;
 }
 
@@ -1068,7 +1089,7 @@ height: 33px; */
 
 .netbilling-scheme {
     display: flex;
-    width: 1296px;
+    max-width: 1296px;
     height: 697px;
 }
 
@@ -1076,6 +1097,7 @@ height: 33px; */
     width: 745px;
     height: 578px;
     position: relative;
+    margin-right: 25px;
 }
 
 .scheme-square {
@@ -1415,12 +1437,11 @@ height: 33px; */
     margin: 0 0 49px 312px;
 }
 
-.advantages-container {
-    display: flex;
-    width: 1316px;
-    margin: 0 312px 40px;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.advantages-container {display: flex;
+width: 1316px;
+margin: 0 auto 40px;
+flex-wrap: wrap;
+justify-content: space-between;
 }
 
 .advantage {

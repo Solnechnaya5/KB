@@ -27,3 +27,11 @@ for (let i = 0; i < buttonSwitchCes.length; i++) {
         cesOpen[i].classList.add("active-ces");       
 }
 }
+// // lang
+// let langItem = document.querySelector('.lang-active');
+// let langItemHidden = document.querySelector('.lang-hidden');
+
+// let openBox = document.querySelector('.lang-active');
+// langItem.addEventListener('mouseup', function openLang(params) {
+//     openBox.style.height = 48;
+// });
