@@ -121,11 +121,11 @@
           <div class="example-container">
             <div class="example-left">
               <div class="example-toggle">
-                <p>Генерація/споживання</p>
-                <p>Повернення інвестицій</p>
+                <p class="change-btn active">Генерація/споживання</p>
+                <p class="change-btn">Повернення інвестицій</p>
               </div>
               <div class="example-graphs">
-                <div class="exam-graph ">
+                <div class="exam-graph active-chart">
                   <div class="exam-graph_desc">
                     <div class="exam-graph_desc-item">
                       Річна продуктивність станції
@@ -160,7 +160,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="exam-graph hide">
+                <div class="exam-graph ">
                   <div class="exam-graph_desc">
                     <div class="exam-graph_desc-item">
                       Річна продуктивність станції
@@ -222,7 +222,7 @@
                       виході на ринок</div>
                     <div class="ces-content_toggle-btn ">Без виходу в ринок</div>
                   </div>
-                  <div class="ces-content_text active">
+                  <div class="ces-content_text active-ces">
                     <ol class="ces-content_text-conteiner">
                       <li>
                         Аналіз вихідних даних.
@@ -262,9 +262,9 @@
                     </ol>
                   </div>
                   <div class="ces-content_text">
-                    <ol>
+                    <ol class="ces-content_text-conteiner">
                       <li>
-                        Аналіз вихідних даних.
+                        Аналіз вихідних даних. Частина 2
                         <ol>
                           <li>Визначення потужності СЕС.</li>
                           <li>Визначення несучої здатності будівлі.</li>
@@ -333,7 +333,7 @@
               </div>
               <div class="square_elem">
                 <div class="sq1">
-                  <img src="./imgs/example/examp_gr1.png" alt="graphic" />
+                  <img src="./imgs/example/examp_gr_01.svg" alt="graphic" />
                   <span>Постачання електроенергії</span>
                 </div>
                 <img class="arrow" src="./imgs/icons/arr_blue3.png" alt="arrow icon" />
@@ -342,7 +342,7 @@
             <div class="compensation-sec2">
               <div class="square_elem2">
                 <div class="sq2">
-                  <img src="./imgs/example/examp_gr2.png" alt="graphic" />
+                  <img src="./imgs/example/examp_gr_02.svg" alt="graphic" />
                   <span>Споживання електроенергії</span>
                 </div>
                 <div class="green_arr1">
@@ -370,7 +370,7 @@
 
                 </div>
                 <div class="sq3">
-                  <img src="./imgs/example/examp_gr3.png" alt="graphic" />
+                  <img src="./imgs/example/examp_gr_03.svg" alt="graphic" />
                   <span>Власна генерація електроенергії</span>
                 </div>
               </div>
@@ -453,9 +453,8 @@
               <div class="swiper-slide">
                 <img src="./imgs/ipad.png" alt="monitoring">
               </div>
-              <div class="swiper-pagination"></div>
             </div>
-            
+            <div class="swiper-pagination"></div>
           </div>
           <div class="monitoring-text_bottom">
             <p class="text-bold">Керуй правильно!</p>
@@ -786,6 +785,7 @@
       <script src="./js/sliders_config.js"></script>
       <script src="./js/maps.js"></script>
       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAuvgHGe4qd1nzVFvXeC6rkXjDE8N1rZtY&libraries=localContext&v=beta&callback=initMap"></script>
+   <script src="./js/toggle_btns.js"></script>
     </body>
 
   </html>
