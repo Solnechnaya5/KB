@@ -1,4 +1,4 @@
-// switch charts
+
 let buttonSwitchChart = document.querySelectorAll('.change-btn');
 let chartOpen = document.querySelectorAll('.exam-graph ');
 function removeActiveClassCharts() {
@@ -12,8 +12,6 @@ for (let i = 0; i < buttonSwitchChart.length; i++) {
         chartOpen[i].classList.add("active-chart");       
 }
 }
-
-// switch ces
 let buttonSwitchCes = document.querySelectorAll('.ces-content_toggle-btn');
 let cesOpen = document.querySelectorAll('.ces-content_text');
 function removeActiveClassCes() {
